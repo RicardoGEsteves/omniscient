@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
 
-import { tools } from "@/constants/app-dashboard-constants";
+import { tools } from "./constants";
 
 export default function DashboardPage() {
   const router = useRouter();
