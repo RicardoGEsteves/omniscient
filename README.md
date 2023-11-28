@@ -1,10 +1,10 @@
 # Omniscient
 
-It is a SaaS(Software as a Service) AI Platform
+It is a `SaaS` (Software as a Service), `AI Platform`
 
 ### Stack
 
-`Nest.js 14, React, Typescript`
+`Nest.js 14, React, Typescript, Clerk`
 
 ## Getting Started
 
