@@ -42,7 +42,7 @@ export const routes = [
   {
     label: "Code Generation",
     icon: Code,
-    color: "text-green-700",
+    color: "text-green-600",
     href: "/code",
   },
   {

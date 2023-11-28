@@ -11,13 +11,6 @@ export const tools = [
     bgColor: "bg-violet-500/10",
   },
   {
-    label: "Music Generation",
-    icon: Music,
-    href: "/music",
-    color: "text-emerald-500",
-    bgColor: "bg-emerald-500/10",
-  },
-  {
     label: "Image Generation",
     icon: ImageIcon,
     color: "text-pink-700",
@@ -32,10 +25,17 @@ export const tools = [
     href: "/video",
   },
   {
+    label: "Music Generation",
+    icon: Music,
+    href: "/music",
+    color: "text-emerald-500",
+    bgColor: "bg-emerald-500/10",
+  },
+  {
     label: "Code Generation",
     icon: Code,
-    color: "text-green-700",
-    bgColor: "bg-green-700/10",
+    color: "text-green-600",
+    bgColor: "bg-green-600/10",
     href: "/code",
   },
 ];

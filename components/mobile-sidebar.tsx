@@ -8,21 +8,28 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Sidebar from "@/components/sidebar";
 
 export default function MobileSidebar() {
-  const [isMounted, setIsMounted] = useState(false);
+  // const [isMounted, setIsMounted] = useState(false);
 
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
+  // useEffect(() => {
+  //   setIsMounted(true);
+  // }, []);
 
-  if (!isMounted) return null;
+  // if (!isMounted) return null;
 
   return (
     <Sheet>
-      <SheetTrigger>
+      {/* <SheetTrigger>
         <Button variant="ghost" size="icon" className="md:hidden">
           <Menu />
         </Button>
-      </SheetTrigger>
+      </SheetTrigger> */}
+
+      <Button asChild variant="ghost" size="icon" className="md:hidden">
+        <SheetTrigger>
+          <Menu />
+        </SheetTrigger>
+      </Button>
+
       <SheetContent side="left" className="p-0">
         <Sidebar />
       </SheetContent>
