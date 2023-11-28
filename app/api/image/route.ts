@@ -34,11 +34,6 @@ export async function POST(req: Request) {
       return new NextResponse("Resolution is required", { status: 400 });
     }
 
-    // const response = await openai.chat.completions.create({
-    //   model: "gpt-3.5-turbo",
-    //   messages,
-    // });
-
     const response = await openai.images.generate({
       prompt,
       n: parseInt(amount, 10),
