@@ -28,26 +28,26 @@ export function constructMetadata({
     // add url
     authors: { name: "Ricardo Esteves", url: "" },
     creator: "Ricardo Esteves",
-    openGraph: {
-      title,
-      description,
-      siteName: "Omniscient",
-      // add url
-      url: "",
-      images: [
-        {
-          url: image,
-        },
-      ],
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [image],
-      creator: "@RicardoGEsteves",
-    },
+    // openGraph: {
+    //   title,
+    //   description,
+    //   siteName: "Omniscient",
+    //   // add url
+    //   url: "",
+    //   images: [
+    //     {
+    //       url: image,
+    //     },
+    //   ],
+    //   type: "website",
+    // },
+    // twitter: {
+    //   card: "summary_large_image",
+    //   title,
+    //   description,
+    //   images: [image],
+    //   creator: "@RicardoGEsteves",
+    // },
     icons,
     // metadataBase: new URL(""), production url
     ...(noIndex && {

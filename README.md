@@ -22,7 +22,7 @@ bun dev
 
 ### Store your keys on your .env or .env.local
 
-Create:
+Create KEY's:
 
 ```
 
@@ -45,6 +45,8 @@ DATABASE_PASS
 
 STRIPE_API_KEY
 STRIPE_WEBHOOK_SECRET
+
+CRISP_TOKEN_ID
 
 ```
 
