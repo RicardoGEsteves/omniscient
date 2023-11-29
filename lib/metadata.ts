@@ -3,14 +3,14 @@ import { Metadata } from "next";
 export function constructMetadata({
   title = "Omniscient",
   description = "Fullstack Software as a Service AI Platform",
-  image = "/logo.png",
-  icons = "/favicon.ico",
+  // image = "/logo.png",
+  // icons = "/favicon.ico",
   noIndex = false,
 }: {
   title?: string;
   description?: string;
-  image?: string;
-  icons?: string;
+  // image?: string;
+  // icons?: string;
   noIndex?: boolean;
 } = {}): Metadata {
   return {
@@ -48,7 +48,7 @@ export function constructMetadata({
     //   images: [image],
     //   creator: "@RicardoGEsteves",
     // },
-    icons,
+    // icons,
     // metadataBase: new URL(""), production url
     ...(noIndex && {
       robots: {

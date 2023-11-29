@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.27.2",
@@ -34,6 +35,7 @@
     "stripe": "^14.5.0",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.7",
+    "typewriter-effect": "^2.21.0",
     "zod": "^3.22.4",
     "zustand": "^4.4.7"
   },
