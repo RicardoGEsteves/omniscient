@@ -7,10 +7,19 @@ import { usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils";
 import { routes } from "@/constants/sidebar-constants";
+import { FreeCounter } from "./free-counter";
 
 const poppins = Montserrat({ weight: "600", subsets: ["latin"] });
 
-export default function Sidebar() {
+interface ISidebarProps {
+  apiLimitCount: number;
+  isPro: boolean;
+}
+
+export default function Sidebar({
+  apiLimitCount = 0,
+  isPro = false,
+}: ISidebarProps) {
   const pathname = usePathname();
 
   return (
@@ -46,7 +55,7 @@ export default function Sidebar() {
           ))}
         </div>
       </div>
-      {/* <FreeCounter apiLimitCount={apiLimitCount} isPro={isPro} /> */}
+      <FreeCounter apiLimitCount={apiLimitCount} isPro={isPro} />
     </div>
   );
 }

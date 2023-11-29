@@ -9,6 +9,7 @@ import { useRouter } from "next/navigation";
 import OpenAI from "openai";
 import ReactMarkdown from "react-markdown";
 
+import Heading from "@/components/heading";
 import { BotAvatar } from "@/components/bot-avatar";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -18,13 +19,13 @@ import { cn } from "@/lib/utils";
 import { Loader } from "@/components/loader";
 import { UserAvatar } from "@/components/user-avatar";
 import { Empty } from "@/components/empty";
+import { useProModal } from "@/hooks/use-pro-modal";
 
 import { formSchema } from "./constants";
-import Heading from "@/components/heading";
 
 const CodePage = () => {
   const router = useRouter();
-
+  const proModal = useProModal();
   const [messages, setMessages] = useState<
     OpenAI.ChatCompletionUserMessageParam[]
   >([]);
@@ -52,6 +53,7 @@ const CodePage = () => {
       form.reset();
     } catch (error: any) {
       if (error?.response?.status === 403) {
+        proModal.onOpen();
       } else {
       }
     } finally {
