@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import { constructMetadata } from "@/lib/metadata";
 
+import { ToasterProvider } from "@/components/toaster-provider";
 import { ModalProvider } from "@/components/modal-provider";
 
 import "./globals.css";
@@ -18,9 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <ClerkProvider>
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning>
         <body className={inter.className}>
+          <ToasterProvider />
+
           <ModalProvider />
+
           {children}
         </body>
       </html>
