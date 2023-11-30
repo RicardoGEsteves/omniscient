@@ -4,7 +4,7 @@ It is a `SaaS` (Software as a Service), `AI Platform`
 
 ### Stack
 
-`Nest.js 14, React, Typescript, OpenAI API, Replicate API, Clerk, Prisma, Zod, Postgres, Supabase, zustand, Stripe, Crisp, Tailwind, Shadcn-ui, Axios, React hook form, react hot toast, React markdown`.
+`Next.js 14, React, Typescript, OpenAI API, Replicate API, Clerk, Prisma, Zod, Postgres, Supabase, zustand, Stripe, Crisp, Tailwind, Shadcn-ui, Axios, React hook form, react hot toast, React markdown`.
 
 ## Getting Started
 
