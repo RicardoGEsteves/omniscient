@@ -1,0 +1,68 @@
+# .github/codeql-config.yml
+
+# Language configuration
+languages:
+  - javascript
+  - typescript
+
+# Analysis configuration
+queries:
+  - ./
+
+# Specify Node.js environment (assuming Node.js is used)
+environments:
+  - name: Node.js
+    variables:
+      - name: NODE_PATH
+        value: /omniscient/node_modules
+
+# Specific rules or configurations for Node.js/npm projects
+nodejs:
+  package-json: |
+    {
+      "name": "omniscient",
+      "version": "0.1.0",
+      "private": true,
+      "dependencies": {
+        "@clerk/nextjs": "^4.27.2",
+        "@hookform/resolvers": "^3.3.2",
+        "@prisma/client": "^5.6.0",
+        "@radix-ui/react-avatar": "^1.0.4",
+        "@radix-ui/react-dialog": "^1.0.5",
+        "@radix-ui/react-label": "^2.0.2",
+        "@radix-ui/react-progress": "^1.0.3",
+        "@radix-ui/react-select": "^2.0.0",
+        "@radix-ui/react-slot": "^1.0.2",
+        "axios": "^1.6.2",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.0.0",
+        "crisp-sdk-web": "^1.0.21",
+        "lucide-react": "^0.293.0",
+        "next": "14.0.3",
+        "openai": "^4.20.1",
+        "react": "^18",
+        "react-dom": "^18",
+        "react-hook-form": "^7.48.2",
+        "react-hot-toast": "^2.4.1",
+        "react-markdown": "^9.0.1",
+        "replicate": "^0.22.0",
+        "stripe": "^14.5.0",
+        "tailwind-merge": "^2.0.0",
+        "tailwindcss-animate": "^1.0.7",
+        "typewriter-effect": "^2.21.0",
+        "zod": "^3.22.4",
+        "zustand": "^4.4.7"
+      },
+      "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "autoprefixer": "^10.0.1",
+        "eslint": "^8",
+        "eslint-config-next": "14.0.3",
+        "postcss": "^8",
+        "prisma": "^5.6.0",
+        "tailwindcss": "^3.3.0",
+        "typescript": "^5"
+      }
+    }
