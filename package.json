@@ -31,7 +31,7 @@
     "react-hook-form": "^7.49.0",
     "react-hot-toast": "^2.4.1",
     "react-markdown": "^9.0.1",
-    "replicate": "^0.22.0",
+    "replicate": "^0.24.0",
     "stripe": "^14.7.0",
     "tailwind-merge": "^2.1.0",
     "tailwindcss-animate": "^1.0.7",
