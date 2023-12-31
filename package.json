@@ -23,7 +23,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "crisp-sdk-web": "^1.0.21",
-    "lucide-react": "^0.294.0",
+    "lucide-react": "^0.303.0",
     "next": "14.0.4",
     "openai": "^4.23.0",
     "react": "^18",
