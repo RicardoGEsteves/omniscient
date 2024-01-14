@@ -131,7 +131,6 @@ export default function ConversationPage() {
           <div className="flex flex-col-reverse gap-y-4">
             {messages.map((message) => (
               <div
-                //TODO: check if message.content is an array other wise change key value
                 key={message.content as string}
                 className={cn(
                   "p-8 w-full flex items-start gap-x-8 rounded-lg",
@@ -141,7 +140,7 @@ export default function ConversationPage() {
                 )}
               >
                 {message.role === "user" ? <UserAvatar /> : <BotAvatar />}
-                {/* //TODO: check if message.content is an array other wise use join() */}
+
                 <p className="text-sm">{message.content as string}</p>
               </div>
             ))}
