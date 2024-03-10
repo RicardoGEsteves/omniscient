@@ -32,7 +32,7 @@
     "react-hot-toast": "^2.4.1",
     "react-markdown": "^9.0.1",
     "replicate": "^0.27.1",
-    "stripe": "^14.17.0",
+    "stripe": "^14.20.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
     "typewriter-effect": "^2.21.0",
