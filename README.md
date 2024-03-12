@@ -1,5 +1,7 @@
 # Omniscient AI Platform
 
+> **(UPDATE)** - with the latest dependencies updates, you will have to do some small config changes.
+
 Welcome to Omniscient, an advanced AI Platform offered as a SaaS (Software as a Service). Empower your projects with cutting-edge artificial intelligence capabilities across various domains. Built on a robust technology stack, Omniscient seamlessly integrates with Next.js 14, React, Typescript, and powerful APIs such as OpenAI and Replicate. This platform is designed to provide a comprehensive solution for code generation, conversation simulation, image creation, music composition, and video generation.
 
 ## Key Features
