@@ -6,7 +6,7 @@ import { Code } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import toast from "react-hot-toast";
+import { toast } from 'sonner'
 import OpenAI from "openai";
 import ReactMarkdown from "react-markdown";
 

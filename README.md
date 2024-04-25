@@ -1,6 +1,6 @@
-# Omniscient AI Platform
+# Modern SaaS template
 
-> **(UPDATE)** - with the latest dependencies updates, you will have to do some small config changes.
+A Next.js 14, Typescript, Clerk, Supabase, Stripe, OpenAi template ready to go.
 
 Welcome to Omniscient, an advanced AI Platform offered as a SaaS (Software as a Service). Empower your projects with cutting-edge artificial intelligence capabilities across various domains. Built on a robust technology stack, Omniscient seamlessly integrates with Next.js 14, React, Typescript, and powerful APIs such as OpenAI and Replicate. This platform is designed to provide a comprehensive solution for code generation, conversation simulation, image creation, music composition, and video generation.
 
@@ -19,16 +19,15 @@ Welcome to Omniscient, an advanced AI Platform offered as a SaaS (Software as a 
 
 ## Technology Stack
 
-- **Frontend**: Next.js 14, React, Typescript, Clerk, Tailwind, Shadcn-ui.
-- **Backend**: Prisma, Postgres, Supabase.
-- **AI Integration**: OpenAI API, Replicate API.
-- **State Management**: Zustand.
-- **Form Handling**: React Hook Form.
-- **API Communication**: Axios.
-- **Notifications**: React Hot Toast.
-- **Markdown Rendering**: React Markdown.
-- **Payment Processing**: Stripe.
-- **Customer Support**: Crisp.
+- **Frontend**: Next.js 14, React, Typescript, Clerk, Tailwind, Shadcn-ui
+- **Backend**: Prisma, Postgres, Supabase
+- **AI Integration**: OpenAI API, Replicate API
+- **State Management**: Zustand
+- **Form Handling**: React Hook Form
+- **API Communication**: Axios
+- **Toast Notifications**: [Sonner](https://sonner.emilkowal.ski/)
+- **Markdown Rendering**: React Markdown
+- **Payment Processing**: Stripe
 
 ## Getting Started
 
@@ -108,3 +107,7 @@ If you encounter any issues or have suggestions for improvement, please [create 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Original authors
+
+This template was copied and slightly adjusted from [@RicardoGEsteves' repo](https://github.com/RicardoGEsteves/omniscient) and [@AntonioErdeljac's youtube video](https://www.youtube.com/watch?v=ffJ38dBzrlY&t=9505s&ab_channel=CodeWithAntonio).

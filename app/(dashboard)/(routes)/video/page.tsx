@@ -8,7 +8,7 @@ import { useForm } from "react-hook-form";
 
 import { FileAudio } from "lucide-react";
 import { useRouter } from "next/navigation";
-import toast from "react-hot-toast";
+import { toast } from 'sonner'
 
 import Heading from "@/components/heading";
 import { Button } from "@/components/ui/button";

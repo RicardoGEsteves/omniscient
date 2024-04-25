@@ -6,7 +6,7 @@ import { useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { useRouter } from "next/navigation";
-import toast from "react-hot-toast";
+import { toast } from 'sonner'
 import { Music, Send } from "lucide-react";
 
 import Heading from "@/components/heading";

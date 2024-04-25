@@ -2,9 +2,8 @@ import { Inter } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import { constructMetadata } from "@/lib/metadata";
 
-import { ToasterProvider } from "@/components/toaster-provider";
+import { Toaster } from 'sonner'
 import { ModalProvider } from "@/components/modal-provider";
-import { CrispProvider } from "@/components/crisp-provider";
 
 import "./globals.css";
 
@@ -20,11 +19,9 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
-        <CrispProvider />
 
         <body className={inter.className}>
-          <ToasterProvider />
-
+          <Toaster richColors/>
           <ModalProvider />
 
           {children}

@@ -3,8 +3,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { Zap } from "lucide-react";
-import { toast } from "react-hot-toast";
-
+import { toast } from 'sonner'
 import { Button } from "@/components/ui/button";
 
 export const SubscriptionButton = ({ isPro = false }: { isPro: boolean }) => {
