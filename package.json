@@ -23,8 +23,8 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "crisp-sdk-web": "^1.0.21",
-    "lucide-react": "^0.407.0",
-    "next": "14.2.4",
+    "lucide-react": "^0.408.0",
+    "next": "14.2.5",
     "openai": "^4.52.2",
     "react": "^18",
     "react-dom": "^18",
@@ -40,15 +40,15 @@
     "zustand": "^4.5.4"
   },
   "devDependencies": {
-    "@types/node": "20.14.10",
+    "@types/node": "20.14.11",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.4.19",
     "eslint": "8.57.0",
-    "eslint-config-next": "14.2.4",
+    "eslint-config-next": "14.2.5",
     "postcss": "8.4.39",
-    "prisma": "5.16.2",
-    "tailwindcss": "3.4.4",
+    "prisma": "5.17.0",
+    "tailwindcss": "3.4.6",
     "typescript": "5.5.3"
   }
 }
