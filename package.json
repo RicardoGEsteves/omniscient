@@ -23,7 +23,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "crisp-sdk-web": "^1.0.21",
-    "lucide-react": "^0.445.0",
+    "lucide-react": "^0.446.0",
     "next": "14.2.13",
     "openai": "^4.57.0",
     "react": "^18",
@@ -31,7 +31,7 @@
     "react-hook-form": "^7.52.0",
     "react-hot-toast": "^2.4.1",
     "react-markdown": "^9.0.1",
-    "replicate": "^0.33.0",
+    "replicate": "^0.34.0",
     "stripe": "^16.9.0",
     "tailwind-merge": "^2.5.0",
     "tailwindcss-animate": "^1.0.7",
@@ -40,15 +40,15 @@
     "zustand": "^4.5.4"
   },
   "devDependencies": {
-    "@types/node": "22.5.5",
-    "@types/react": "18.3.8",
+    "@types/node": "22.7.4",
+    "@types/react": "18.3.10",
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.4.20",
     "eslint": "8.57.1",
     "eslint-config-next": "14.2.13",
     "postcss": "8.4.47",
-    "prisma": "5.19.1",
-    "tailwindcss": "3.4.12",
+    "prisma": "5.20.0",
+    "tailwindcss": "3.4.13",
     "typescript": "5.6.2"
   }
 }
