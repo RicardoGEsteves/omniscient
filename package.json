@@ -10,7 +10,7 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.9.11",
+    "@clerk/nextjs": "^6.9.14",
     "@hookform/resolvers": "^3.10.0",
     "@prisma/client": "^6.2.1",
     "@radix-ui/react-avatar": "^1.0.4",
@@ -23,9 +23,9 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "crisp-sdk-web": "^1.0.21",
-    "lucide-react": "^0.471.0",
-    "next": "15.1.4",
-    "openai": "^4.78.1",
+    "lucide-react": "^0.473.0",
+    "next": "15.1.5",
+    "openai": "^4.79.1",
     "react": "^19",
     "react-dom": "^19",
     "react-hook-form": "^7.54.2",
@@ -40,12 +40,12 @@
     "zustand": "^5.0.3"
   },
   "devDependencies": {
-    "@types/node": "22.10.6",
+    "@types/node": "22.10.7",
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
     "autoprefixer": "10.4.20",
     "eslint": "8.57.1",
-    "eslint-config-next": "15.1.4",
+    "eslint-config-next": "15.1.5",
     "postcss": "8.5.1",
     "prisma": "6.2.1",
     "tailwindcss": "3.4.17",
